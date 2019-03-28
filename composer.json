@@ -19,19 +19,18 @@
     ],
     "license": "BSD-3-Clause",
     "require": {
-        "php": ">=5.3.9",
+        "php": ">=5.5",
         "zendframework/zendframework": "2.*"
     },
     "require-dev": {
         "mockery/mockery": ">=0.7.2"
     },
     "autoload": {
-        "psr-0": {
-            "ScnHttpCache": "src/"
-        },
-        "classmap": [
-            "src/",
-            "Module.php"
-        ]
+        "psr-4": {
+            "Thexpand\\": "src/"
+        }
+    },
+    "scripts": {
+        "generate-classmap": "./vendor/bin/classmap_generator.php --library src --output ./autoload_classmap.php --overwrite"
     }
 }
