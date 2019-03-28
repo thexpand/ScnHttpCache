@@ -1,5 +1,5 @@
 {
-    "name": "socalnick/scn-http-cache",
+    "name": "thexpand/scn-http-cache",
     "description": "Adds several features to help make ZF2 applications cacheable.",
     "type": "library",
     "keywords": [
@@ -9,12 +9,12 @@
         "edge side includes",
         "varnish"
     ],
-    "homepage": "https://github.com/SocalNick/ScnHttpCache",
+    "homepage": "https://github.com/thexpand/scn-http-cache",
     "authors": [
         {
-            "name": "Nicholas Calugar",
-            "email": "njcalugar@gmail.com",
-            "homepage": "http://socalnick.github.com/"
+            "name": "Tsvetomir Lazarov",
+            "email": "cvetomir.lazarov@gmail.com",
+            "homepage": "https://github.com/thexpand"
         }
     ],
     "license": "BSD-3-Clause",
