@@ -1,5 +1,5 @@
 {
-    "name": "thexpand/scn-http-cache",
+    "name": "thexpand/zf2-http-cache",
     "description": "Adds several features to help make ZF2 applications cacheable.",
     "type": "library",
     "keywords": [
@@ -9,7 +9,7 @@
         "edge side includes",
         "varnish"
     ],
-    "homepage": "https://github.com/thexpand/scn-http-cache",
+    "homepage": "https://github.com/thexpand/zf2-http-cache",
     "authors": [
         {
             "name": "Tsvetomir Lazarov",
